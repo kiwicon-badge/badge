@@ -6,6 +6,7 @@
   1    0  - output, driven low
   1    1  - output, driven high```
 
+
 # LED to Pin Mapping
 
 ```LED        Pin (H/L)
