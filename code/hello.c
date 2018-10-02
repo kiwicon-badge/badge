@@ -42,42 +42,16 @@ void loop() {
   int counter;
   
   // Legal characters for MESSAGE_STRING include A-Z, '!', ' ' (space), and '#' (block).
-  char MESSAGE[] = "HELLOWORLD";
+  char MESSAGE[] = "HELLO ";
   
-  for (counter = 0; counter < sizeof(MESSAGE); counter++) {
-    long character;
+  for (counter = 0; counter < (sizeof(MESSAGE) - 1); counter++) {
+    long character = 0b11111111111111111111;
 
-    character = (long) MESSAGE[counter];
-
-//  if (character == 'A') character = 0b01101001111110011001;
-//  if (character == 'B') character = 0b01101001111110011001;
-//  if (character == 'C') character = 0b01111000100010000111;
-    if (character == 'D') character = 0b11101001100110011110;
-    if (character == 'E') character = 0b11111000111010001111;
-//  if (character == 'F') character = 0b11111000111010001000;
-//  if (character == 'G') character = 0b01111000101110010110;
-    if (character == 'H') character = 0b10011001111110011001;
-//  if (character == 'I') character = 0b01110010001000100111;
-//  if (character == 'J') character = 0b01110010001010100100;
-//  if (character == 'K') character = 0b10011010110010101001;
-    if (character == 'L') character = 0b10001000100010001111;
-//  if (character == 'M') character = 0b10011111111110011001;
-//  if (character == 'N') character = 0b10011101101110011001;
-    if (character == 'O') character = 0b01101001100110010110;
-//  if (character == 'P') character = 0b11101001111010001000;
-//  if (character == 'Q') character = 0b01101001101101100001;
-    if (character == 'R') character = 0b11101001111010101001;
-//  if (character == 'S') character = 0b11111000111100011111;
-//  if (character == 'T') character = 0b01110010001000100010;
-//  if (character == 'U') character = 0b10011001100110010110;
-//  if (character == 'V') character = 0b10011001100110100100;
-    if (character == 'W') character = 0b10011001111111110110;
-//  if (character == 'X') character = 0b10011001011010011001;
-//  if (character == 'Y') character = 0b10011001011000101100;
-//  if (character == 'Z') character = 0b11110001001001001111;
-    if (character == '!') character = 0b01000100010000000100;
-    if (character == '#') character = 0b11111111111111111111;
-    if (character == ' ') character = 0b00000000000000000000;
+    if (MESSAGE[counter] == 'H') character = 0b10011001111110011001;
+    if (MESSAGE[counter] == 'E') character = 0b11111000111010001111;
+    if (MESSAGE[counter] == 'L') character = 0b10001000100010001111;
+    if (MESSAGE[counter] == 'O') character = 0b01101001100110010110;
+    if (MESSAGE[counter] == ' ') character = 0b00000000000000000000;
     
     displayCharacterBlock(character);
   }
