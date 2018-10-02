@@ -24,7 +24,10 @@ OBJFILE="$(echo "$1" | sed -e "s/\.c$/.o/")"
 ELFFILE="$(echo "$1" | sed -e "s/\.c$/.elf/")"
 HEXFILE="$(echo "$1" | sed -e "s/\.c$/.hex/")"
 
-avr-gcc -g -DF_CPU=9600000 -Wall -Os -mmcu=attiny13a -c -o ${OBJFILE} ${1}
-avr-gcc -g -DF_CPU=9600000 -Wall -Os -mmcu=attiny13a -o ${ELFFILE} ${OBJFILE}
-avr-size ${ELFFILE}
-avr-objcopy -j .text -j .data -O ihex ${ELFFILE} ${HEXFILE}
+$AVRGCC -g -DF_CPU=9600000 -Wall -Os -mmcu=attiny13a -c -o ${OBJFILE} ${1}
+$AVRGCC -g -DF_CPU=9600000 -Wall -Os -mmcu=attiny13a -o ${ELFFILE} ${OBJFILE}
+# $AVRSIZE ${ELFFILE}
+$AVROBJCOPY -j .text -j .data -O ihex ${ELFFILE} ${HEXFILE}
+
+echo "success: created \"${HEXFILE}\"" >&2
+exit 0
