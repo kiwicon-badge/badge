@@ -1,9 +1,9 @@
 # Port States
- DDR PORT
+```DDR PORT
   0    0  - input, high impedance
   0    1  - input, pulled up
   1    0  - output, driven low
-  1    1  - output, driven high
+  1    1  - output, driven high```
 
 # LED to Pin Mapping
   LED        Pin (H/L)
