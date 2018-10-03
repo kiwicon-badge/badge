@@ -11,12 +11,14 @@ In the first part of the course, we are going to learn a bit about the laws whic
 
 ### Components
 
-+ Breadboard
-+ LED, x1
-+ 100 Ohm resistor, x2
-+ Button battery holder, x1
-+ Button battery (CR2025 or CR2032), x1
-+ Jumper cables, x2
+| Item                              |  Count |
+| --------------------------------- |-------:|
+| Breadboard                        |     x1 |
+| LED                               |     x2 |
+| 100 Ohm resister                  |     x1 |
+| Button battery holder             |     x1 |
+| Button battery (CR2025 or CR2032) |     x1 |
+| Jumper cables                     |     x2 |
 
 ### Instructions
 Electrical circuits are all about electrons (the ‘charge’) flowing through a conductive path (the 'current') from a low potential area to a high potential area (the ‘voltage’). There are many components we can use to modify how that charge flows, including interrupting it (‘switches’), limiting it (‘resistors’), storing it (‘capacitors’), and transforming its energy to another form (‘LEDs’).
@@ -43,11 +45,6 @@ Now you have built a circuit, lets learn how to make something more permanent us
 
 ### Components
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 ## Badge Assembly
 
