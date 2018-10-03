@@ -7,13 +7,13 @@ In the first part of the course, we are going to learn a bit about the laws whic
 
 ### Tools
 
-| Item                              |     x1 |
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |     x1 |
 | --------------------------------- |-------:|
 | Multimeter                        | Shared |
 
 ### Components
 
-| Item                              |  Count |
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  Count |
 | --------------------------------- |-------:|
 | Breadboard                        |     x1 |
 | LED                               |     x2 |
@@ -42,7 +42,7 @@ Now you have built a circuit, lets learn how to make something more permanent us
 
 ### Tools
 
-| Item                              |  Count |
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |  Count |
 | --------------------------------- |-------:|
 | Soldering iron                    |     x1 |
 | Multimeter                        | Shared |
