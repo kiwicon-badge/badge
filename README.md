@@ -30,12 +30,11 @@ In this first lab, we will create a circuit using a battery to create a diffence
 ## Soldering
 Now you have built a circuit, lets learn how to make something more permanent using soldering.
 
-*Note:
+*Note:*
 
-+ Soldering irons are hot! Always be aware of where you soldering iron is, especially the tip. Never lay it on the table, always put it back in the holder.
-+ Solder and solder flux creates fumes which may irritate. Alway solder in a well ventilated area.
-+ Solder contains lead (Pb), a toxic substance. Do not ingest it! Wash your hands after soldering and make sure you do not hold components in your mouth to prevent this!
-*
++ *Soldering irons are hot! Always be aware of where you soldering iron is, especially the tip. Never lay it on the table, always put it back in the holder.*
++ *Solder and solder flux creates fumes which may irritate. Alway solder in a well ventilated area.*
++ *Solder contains lead (Pb), a toxic substance. Do not ingest it! Wash your hands after soldering and make sure you do not hold components in your mouth to prevent this!*
 
 ## Badge Assembly
 
