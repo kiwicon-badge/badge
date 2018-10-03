@@ -7,7 +7,9 @@ In the first part of the course, we are going to learn a bit about the laws whic
 
 ### Tools
 
-+ Multimeter, shared
+| Item                              |     x1 |
+| --------------------------------- |-------:|
+| Multimeter                        | Shared |
 
 ### Components
 
