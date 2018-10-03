@@ -42,8 +42,10 @@ Now you have built a circuit, lets learn how to make something more permanent us
 
 ### Tools
 
-+ Soldering iron, x1
-+ Multimeter, shared
+| Item                              |  Count |
+| --------------------------------- |-------:|
+| Soldering iron                    |     x1 |
+| Multimeter                        | Shared |
 
 ### Components
 
