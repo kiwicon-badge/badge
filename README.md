@@ -175,9 +175,11 @@ Sourcing compoents for projects can be time consuming and expensive. Various too
 
 ### Instructions
 
-1. Compore the different prices / delivery times / products when trying to source 20x 100 Ohm resistors and 80x green LEDs at:
+1. Check out the different prices / delivery times / products when trying to source 25x 100 Ohm resistors, 100x green LEDs, and 5x ATtiny13A at:
   + www.aliexpress.com
   + www.jaycar.co.nz
   + www.digikey.co.nz
   + www.element14.co.nz
+  
+  
 
