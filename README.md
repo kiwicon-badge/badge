@@ -75,18 +75,21 @@ Soldering is a key skill when working with electronics. However, the only way to
 
 
 ### Additional Resources
-+ TODO: Add links to Sparkfun tutorial
-+ TODO: Add links to that other good tutorial...
++ https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all
++ EEVblog #180 - Soldering Tutorial Part 1 - Tools https://www.youtube.com/watch?v=J5Sb21qbpEQ
++ EEVblog #183 - Soldering Tutorial Part 2 https://www.youtube.com/watch?v=fYz5nIHH0iY
 
 
 ## Badge Assembly
-
+The fun bit! 
 
 ## Badge Programming
 
 ## Circuit and PCB Design
 
 Unlike times past, designing and building your own PCBs is now super easy and inexpensive. Tools like Kicad, Eagle, and Fritzing make circuit and PCB design significantly easier and the various online vendors in China make it super simple to get your prototypes realised as actual products.
+
+There are also heaps of libraries of components available for download, meaning you can easily to turn your circuit design into a physical model and to create a bill of materials (BOM).
 
 ### Tools
 
@@ -98,7 +101,21 @@ Grab `Eagle` off the webserver and install it.
 Grab the following files off the webserver:
 + ```TODO: Add link to sch file```
 
+### Further Reading
++ Tutorial 1 for Eagle: Schematic Design - https://www.youtube.com/watch?v=1AXwjZoyNno
++ https://www.allpcb.com/sns/Gerber+File/2017-02-24_1_10_4819_Create+a+Gerber+File+with+Eagle/rpllst.html
++ https://www.snapeda.com/eagle/
 
-## Buying Parts
-Buying components for your projects can be a 
+
+## Sourcing Components
+
+Sourcing compoents for projects can be time consuming and expensive. Various tools will let you automate the process somewhat, but mostly you will still find it is a manual process of reading specs / datasheets, weighing up differences in pricing, reliability of the vendor, time for delivery, cost of delivery, etc.
+
+### Instructions
+
+1. Compore the different prices / delivery times / products when trying to source 20x 100 Ohm resistors and 80x green LEDs at:
+  + www.aliexpress.com
+  + www.jaycar.co.nz
+  + www.digikey.co.nz
+  + www.element14.co.nz
 
