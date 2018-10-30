@@ -59,7 +59,7 @@ Soldering is a key skill when working with electronics. However, the only way to
 
 | Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
 | --------------------------------- |-------:|
-| Soldering iron kit (wand, cradle, brass spong) |     x1 |
+| Soldering iron kit (wand, cradle, brass sponge) |     x1 |
 | Multimeter                        | Shared |
 | Flush cutters                     |     x1 |
 
@@ -81,11 +81,11 @@ Soldering is a key skill when working with electronics. However, the only way to
 6. The solder wire should melt and wick into the gap between the resistor and the perfboard. When it does, pull away the solder, then the iron.
 7. Et voila! You've made your first solder joint.
 
-Tips:
+*Note:
 + You are not trying to wipe solder from the iron onto the components. You should instead heat the components up and let capilliary action work its magic. As long as everything is up to temperature, solder will quickly wick into the joint.
 + Use the side of the tip (aka the sweet spot), not the very tip of the iron. This is the hottest part and works the best to quickly get the components up to temperature. That said, if you need to get into a tight spot or are doing SMD work on small traces, use the tip,.
 + Aim to heat both the pad and the part you want to solder evenly and at the same time. Be aware that larger components will take more heat, so you will have to press the iron against those first before also touching the pad. 
-+ Regularly tin your soldering iron and clean it off in the brass sponge. A clean tip works much better than a dirty one!
++ Regularly tin your soldering iron and clean it off in the brass sponge. A clean tip works much better than a dirty one!*
 
 ### Additional Resources
 + https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all
@@ -96,7 +96,41 @@ Tips:
 ## Badge Assembly
 The fun bit! Now you have the skills, we're going to put them all together to construct something useful.
 
+### Tools
+
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
+| --------------------------------- |-------:|
+| Soldering iron kit (wand, cradle, brass sponge) |     x1 |
+| Multimeter                        | Shared |
+| Flush cutters                     |     x1 |
+
+
+### Components
+
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
+| --------------------------------- |-------:|
+| Badge PCB                     |     x1 |
+| Coin cell battery holder |     x1 |
+| Headers, male (pin) |     x9 |
+| Jumper |     x1 |
+| 100 Ohm resistor                     |     x5 |
+| Green LED                    |     x20 |
+| Solder                            |     x1 |
+| Resistor / Solid core wire        |    x10 |
+
 ## Badge Programming
+
+### Tools
+
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
+| --------------------------------- |-------:|
+| USBAsp programmer                 |     x1 |
+| Female jumper wires               |     x6 |
+| Laptop, with Arduino installed    |     x1 |
+
+### Instructions
+
+
 
 ## Circuit and PCB Design
 
