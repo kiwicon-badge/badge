@@ -119,6 +119,9 @@ The fun bit! Now you have the skills, we're going to put them all together to co
 | Resistor / Solid core wire        |    x10 |
 
 ## Badge Programming
+Microcontrollers are cheap devices which allow you to introduce programmable behaviour to a system. This can be used for pretty much anything you can imagine, from simply telling a LED to blink, to creating control home lighting, and even to creating a conference badge of blinky LEDs. ;)
+
+This badge uses the relatively simple and inexpensive Atmel AVR Attiny13A chip. The Attiny family of microcontrollers includes a range of minimal very low power devices which are great for 
 
 ### Tools
 
@@ -129,8 +132,20 @@ The fun bit! Now you have the skills, we're going to put them all together to co
 | Laptop, with Arduino installed    |     x1 |
 
 ### Instructions
+1. Make sure your Arduino IDE is installed.
+2. Open the IDE settings (File->Settings) and paste the URL below in “Additional URLs for the board manager”, then click “OK”:
+https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
+3. Open the Boards manager (Tools->Board->Boards manager), search and install the “MicroCore” package.
+4. In tools, select the right options. Board: “ATtiny13”; Clock: “1.2MHz internal oscillator”; BOD: “Disabled”; Complier LTO: "Disabled".
+5. In tools,  the "USBAsp" programmer.
+6. Connect the programmer and the badge, the small dot near the 6-pin connector is the first pin (MISO), see the photos for alternative connections.
+7. In tools hit Burn the bootloader (actually it's not a true bootloader, just AVR fuses), you should see some LEDs flashing, if you don't encounter any problem you can go ahead.
+8. Download the "Blinky lights" sketch *TODO: Insert link to sketch*
+9. Upload this to the badge (Sketch -> Upload). While uploading the sketch, you should see some LEDs flashing. If the Arduino IDE doesn't throw any error you can go ahead, else ask for help.
+10. Connect the jumper to the right-hand two header pins to power on the badge (powered by the USBAsp). You should now see blinky lights.
 
-
+### Additional Resources
++ https://quadmeup.com/programming-attiny85-and-attiny45-with-arduino-ide/
 
 ## Circuit and PCB Design
 
