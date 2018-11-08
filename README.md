@@ -33,19 +33,78 @@ In the first lab, we will use a battery (changing chemical energy to potential e
 ### Instructions
 
 1. Assemble the components into a circuit based on the following diagram.
-```TODO: Insert diagram...```
+*TODO: Insert diagram...*
 2. Put the multimeter into `Voltage - DC` mode and measure the voltage across various components (touch each leg).
 3. Add the second resistor to the circuit in series (i.e. one after the other in a circuit) as per the diagram below. Observe the changes in the LED brightness and use the multimeter to measure the differing voltage drops.
-```TODO: Insert diagram...```
+*TODO: Insert diagram...*
 4. Add the second resistor to the circuit in parallel (i.e. both starting at the same point and finishing at the same point). Observe the changes in the LED brightness and use the multimeter to measure the differing voltage drops.
-```TODO: Insert diagram...```
+*TODO: Insert diagram...*
 
 ### Additional Resources
 + https://www.electronics-tutorials.ws/
++ https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard
++ https://learn.sparkfun.com/tutorials/voltage-current-resistance-and-ohms-law
++ https://learn.sparkfun.com/tutorials/what-is-a-circuit
+
+
+## Microcontrollers
+This lab will teach the basics of constructing a circuit which includes a microcontroller.
+
+Microcontrollers are cheap devices which allow you to introduce programmable behaviour to a system. This can be used for pretty much anything you can imagine, from simply telling a LED to blink, to controlling the lights in your home, and even to creating a conference badge of blinky LEDs. Of course, you can do more than turning lights on and off, too ;)
+
+The badge uses the relatively simple and inexpensive Atmel AVR Attiny13A chip. The Attiny family of microcontrollers includes a range of minimal very low power devices which are great for small projects. Other common microcontrollers you may come across include the Atmel Atmega range, commonly used in Arduino devices.
+
+### Components
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
+| --------------------------------- |-------:|
+| Breadboard                        |     x1 |
+| LED                               |     x2 |
+| 100 Ohm resister                  |     x2 |
+| Button battery holder             |     x1 |
+| Button battery (CR2025 or CR2032) |     x1 |
+| Jumper wires                      |     x3 |
+
+### Instructions
+1. Assemble the components into a circuit based on the following diagram:
+*TODO: Insert diagram*
+2. Once all is connected, insert the battery into the battery holder. Make sure the flat side with writing is up.
+3. All going well, the preprogrammed microcontroller should alternately flash both LEDs.
+
+
+## Loading a Program
+
+The Attiny13a is a fairly limited device, with only 1024 bytes of flash storage in which to store your program, and 64 bytes of RAM (it also has 64 bytes of EEPROM, but we won't be using that today). However, it is still a great platform to learn with and, as a quick web search shows, what you can do with it may only limited by your imagination.
+
+In this lab, we will run through how to use the Arduino IDE to create and upload new code to the device. (If we're running on schedule, we'll also use the command line tools available.)
+
+### Tools
+
+| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
+| --------------------------------- |-------:|
+| USBAsp programmer                 |     x1 |
+| Female jumper wires               |     x6 |
+| Laptop, with Arduino installed    |     x1 |
+
+### Instructions
+
+1. Make sure your Arduino IDE is installed.
+2. Open the IDE settings (File->Settings) and paste the URL below in “Additional URLs for the board manager”, then click “OK”:
+https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
+3. Open the Boards manager (Tools->Board->Boards manager), search and install the “MicroCore” package.
+4. In tools, select the right options. Board: “ATtiny13”; Clock: “1.2MHz internal oscillator”; BOD: “Disabled”; Complier LTO: "Disabled".
+5. In tools,  the "USBAsp" programmer.
+6. Connect the programmer and the badge, the small dot near the 6-pin connector is the first pin (MISO), see the photos for alternative connections.
+7. In tools hit Burn the bootloader (actually it's not a true bootloader, just AVR fuses), you should see some LEDs flashing, if you don't encounter any problem you can go ahead.
+8. Download the "Blinky lights" sketch *TODO: Insert link to sketch*
+9. Upload this to the badge (Sketch -> Upload). While uploading the sketch, you should see some LEDs flashing. If the Arduino IDE doesn't throw any error you can go ahead, else ask for help.
+10. Connect the jumper to the right-hand two header pins to power on the badge (powered by the USBAsp). You should now see blinky lights.
+
+### Additional Resources
++ https://quadmeup.com/programming-attiny85-and-attiny45-with-arduino-ide/
 
 
 ## Soldering
-Now you have built a circuit, lets learn how to make something more permanent using solder to weld components.
+Now you have built a circuit, lets learn how to make something more permanent using solder to weld components together.
 
 Soldering is a key skill when working with electronics. However, the only way to become skilled at soldering is to practice!
 
@@ -62,7 +121,6 @@ Soldering is a key skill when working with electronics. However, the only way to
 | Soldering iron kit (wand, cradle, brass sponge) |     x1 |
 | Multimeter                        | Shared |
 | Flush cutters                     |     x1 |
-
 
 ### Components
 
@@ -84,7 +142,7 @@ Soldering is a key skill when working with electronics. However, the only way to
 *Note:
 + You are not trying to wipe solder from the iron onto the components. You should instead heat the components up and let capilliary action work its magic. As long as everything is up to temperature, solder will quickly wick into the joint.
 + Use the side of the tip (aka the sweet spot), not the very tip of the iron. This is the hottest part and works the best to quickly get the components up to temperature. That said, if you need to get into a tight spot or are doing SMD work on small traces, use the tip,.
-+ Aim to heat both the pad and the part you want to solder evenly and at the same time. Be aware that larger components will take more heat, so you will have to press the iron against those first before also touching the pad. 
++ Aim to heat both the pad and the part you want to solder evenly and at the same time. Be aware that larger components will take more heat, so you will have to press the iron against those first before also touching the pad.
 + Regularly tin your soldering iron and clean it off in the brass sponge. A clean tip works much better than a dirty one!*
 
 ### Additional Resources
@@ -94,7 +152,7 @@ Soldering is a key skill when working with electronics. However, the only way to
 
 
 ## Badge Assembly
-The fun bit! Now you have the skills, we're going to put them all together to construct something useful.
+The fun bit! Now you have the skills, we're going to put them all together to construct something useful. Take your time and make sure you get it right, less speed is more haste when it comes to assembly!
 
 ### Tools
 
@@ -103,7 +161,6 @@ The fun bit! Now you have the skills, we're going to put them all together to co
 | Soldering iron kit (wand, cradle, brass sponge) |     x1 |
 | Multimeter                        | Shared |
 | Flush cutters                     |     x1 |
-
 
 ### Components
 
@@ -118,68 +175,29 @@ The fun bit! Now you have the skills, we're going to put them all together to co
 | Solder                            |     x1 |
 | Resistor / Solid core wire        |    x10 |
 
-## Badge Programming
-Microcontrollers are cheap devices which allow you to introduce programmable behaviour to a system. This can be used for pretty much anything you can imagine, from simply telling a LED to blink, to creating control home lighting, and even to creating a conference badge of blinky LEDs. ;)
-
-This badge uses the relatively simple and inexpensive Atmel AVR Attiny13A chip. The Attiny family of microcontrollers includes a range of minimal very low power devices which are great for 
-
-### Tools
-
-| Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
-| --------------------------------- |-------:|
-| USBAsp programmer                 |     x1 |
-| Female jumper wires               |     x6 |
-| Laptop, with Arduino installed    |     x1 |
-
-### Instructions
-1. Make sure your Arduino IDE is installed.
-2. Open the IDE settings (File->Settings) and paste the URL below in “Additional URLs for the board manager”, then click “OK”:
-https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
-3. Open the Boards manager (Tools->Board->Boards manager), search and install the “MicroCore” package.
-4. In tools, select the right options. Board: “ATtiny13”; Clock: “1.2MHz internal oscillator”; BOD: “Disabled”; Complier LTO: "Disabled".
-5. In tools,  the "USBAsp" programmer.
-6. Connect the programmer and the badge, the small dot near the 6-pin connector is the first pin (MISO), see the photos for alternative connections.
-7. In tools hit Burn the bootloader (actually it's not a true bootloader, just AVR fuses), you should see some LEDs flashing, if you don't encounter any problem you can go ahead.
-8. Download the "Blinky lights" sketch *TODO: Insert link to sketch*
-9. Upload this to the badge (Sketch -> Upload). While uploading the sketch, you should see some LEDs flashing. If the Arduino IDE doesn't throw any error you can go ahead, else ask for help.
-10. Connect the jumper to the right-hand two header pins to power on the badge (powered by the USBAsp). You should now see blinky lights.
-
-### Additional Resources
-+ https://quadmeup.com/programming-attiny85-and-attiny45-with-arduino-ide/
 
 ## Circuit and PCB Design
 
-Unlike times past, designing and building your own PCBs is now super easy and inexpensive. Tools like Kicad, Eagle, and Fritzing make circuit and PCB design significantly easier and the various online vendors in China make it super simple to get your prototypes realised as actual products.
+The availability of Tools like Kicad, Eagle, and Fritzing make circuit and PCB design easier than ever.  Add to that the various online vendors in China and you can quickly get your prototypes realised as actual products.
 
 There are also heaps of libraries of components available for download, meaning you can easily to turn your circuit design into a physical model and to create a bill of materials (BOM).
 
 ### Tools
 
-Grab `Eagle` off the webserver and install it.
-```TODO: Add link```
-
-### Components
-
-Grab the following files off the webserver:
-+ ```TODO: Add link to sch file```
-
-### Further Reading
-+ Tutorial 1 for Eagle: Schematic Design - https://www.youtube.com/watch?v=1AXwjZoyNno
-+ https://www.allpcb.com/sns/Gerber+File/2017-02-24_1_10_4819_Create+a+Gerber+File+with+Eagle/rpllst.html
-+ https://www.snapeda.com/eagle/
-
-
-## Sourcing Components
-
-Sourcing compoents for projects can be time consuming and expensive. Various tools will let you automate the process somewhat, but mostly you will still find it is a manual process of reading specs / datasheets, weighing up differences in pricing, reliability of the vendor, time for delivery, cost of delivery, etc.
+Grab `Eagle` install files off the webserver.
 
 ### Instructions
 
-1. Check out the different prices / delivery times / products when trying to source 25x 100 Ohm resistors, 100x green LEDs, and 5x ATtiny13A at:
-  + www.aliexpress.com
-  + www.jaycar.co.nz
-  + www.digikey.co.nz
-  + www.element14.co.nz
-  
-  
+1. Install AutoDesk Eagle.
+2. Start Eagle and create an Autodesk account.
+3.  Grab the SCH files:
+*TODO: Insert link to files*
+4. Open the files in Eagle
+
+### Additional Resources
+
++ Tutorial 1 for Eagle: Schematic Design https://www.youtube.com/watch?v=1AXwjZoyNno
++ https://www.snapeda.com/search/?csrfmiddlewaretoken=isH0OevEUKxVNXRyAFfQ1jB1RUK12JNG&q=led+matrix&search-type=parts
++ AllPCB, PCB manufacturer - https://allpcb.com
++ How to export your files from Eagle - https://www.allpcb.com/sns/Gerber+File/2017-02-24_1_10_4819_Create+a+Gerber+File+with+Eagle/rpllst.html
 
