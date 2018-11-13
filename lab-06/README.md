@@ -6,9 +6,11 @@ Use the following pinout when connecting the USBAsp to the badge:
 
 ![USBAsp pinouts](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-06/images/badge_pinout.png)
 
-Once final complication is that the badge uses a feature that is called "charlieplexing". As a microcontroller can have three states - input, output, and high impedance - designers can leverage this and the property of LEDs - that current can only flow forward through the component - to make up for the fact that they only have a limited number of pins. 
+Once final complication is that the badge uses a feature that is called "charlieplexing". As a microcontroller can have three states - input, output, and high impedance - designers can leverage this and the property of LEDs - that current can only flow forward through the component - to make up for the fact that they only have a limited number of pins. For example, the following schematic shows how to control 6 LEDs with only 3 pins:
 
 ![Charlieplexing](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-06/images/6with3.png)
+
+(*Rather than using charlieplexing, you can also use additional components. I have some shift registers here, which you can breadboard with if you choose.*)
 
 In this case, the badge uses only 5 pins to control 20 LEDs individually.
 
