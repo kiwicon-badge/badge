@@ -33,4 +33,13 @@ Happy hacking!
 + Toilets are in the stairwells, female toilets are to the left just outside the door, males to the left on the other side of the single lift. Ask for an access card before you leave, as the stairwell doors are locked. If you get locked out without a card, go to the ground floor and take the lift back up to level 4.
 + We will take regular breaks, but if you have something to do, feel free to bounce in and out as needed.
 
+## Course Labs
 
++ https://github.com/kiwicon-badge/badge/tree/master/lab-01
++ https://github.com/kiwicon-badge/badge/tree/master/lab-02
++ https://github.com/kiwicon-badge/badge/tree/master/lab-03
++ https://github.com/kiwicon-badge/badge/tree/master/lab-04
++ https://github.com/kiwicon-badge/badge/tree/master/lab-05
++ https://github.com/kiwicon-badge/badge/tree/master/lab-06
+
+After that, if anyone is interested, we can run through PCB design using Eagle (and maybe Fritzing).
