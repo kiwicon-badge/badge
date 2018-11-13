@@ -24,7 +24,7 @@ Make sure you use the above pinouts!
 1. Make sure your Arduino IDE is installed.
 2. Open the IDE settings (File->Settings) and paste the URL below in “Additional URLs for the board manager”, then click “OK”:
 https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
-3. Open the Boards manager (Tools->Board->Boards manager), search and install the “MicroCore” package.
+3. Open the Boards manager (Tools->Board->Boards manager), search for and install the “MicroCore” package. This will enable programming the ATtiny13a microcontroller.
 4. In tools, select the right options. Board: “ATtiny13”; Clock: “1.2MHz internal oscillator”; BOD: “Disabled”; Complier LTO: "Disabled".
 5. In tools, select the "USBAsp" programmer.
 6. Connect the programmer to your breadboard as per below:
