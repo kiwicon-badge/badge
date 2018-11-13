@@ -27,7 +27,7 @@ Soldering is a key skill when working with electronics. However, the only way to
 
 ### Instructions
 1. Plug in your soldering iron, set it to 325 degrees, and place it on the cradle to warm up. Make sure you are always aware of you iron and its cable!
-2. Prep your first item to solder. Insert each leg of a resistor through a hole on the perfboard, then bend the wires away from the component, which will hold it in place, like the image below (well not exaclty, I forgot to take a pic using a perfboard, so I used a badge example instead):
+2. Prep your first item to solder. Insert each leg of a resistor through a hole on the perfboard, then bend the wires away from the component, which will hold it in place, like the image below (*well not exaclty, I forgot to take a pic using a perfboard, so I used a badge example instead*):
 ![Bending legs](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-04/images/first_component.png)
 3. Place the perfboard on the table or stick it in some bluetac to hold it in place.
 4. Test your soldering irons temperature by gently touching the end of the solder to the iron, about 1-2mm back from the tip. This is the hottest part of the iron, not the tip. If the solder melts, you're good to go. This is called "tinning" the iron. Wipe off the excess solder using the brass sponge.
