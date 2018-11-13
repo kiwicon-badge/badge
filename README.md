@@ -24,7 +24,7 @@ Happy hacking!
 + The solder flux may be irritating to some. If you have an issue, move to one of the tables / stations nearer the windows.
 + Soldering irons are hot! Always beware where you are putting it and make sure the cord is in a safe location where noone can trip over it.
 + If you see any hazards, let me know and we will work to minimise or remedy these.
-+ We follow the [Kiwicon Code of Conduct](https://www.kiwicon.org/faq/#q9). Don't be a shitweasel!
++ We follow the [Kiwicon Code of Conduct](https://www.kiwicon.org/faq/#q9). Don't be a shitweasel! We're here to learn in a collaborative environment. Leave everything else at the door.
 
 ## Breaks / Facilities
 
