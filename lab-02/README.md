@@ -17,7 +17,7 @@ The badge uses the relatively simple and inexpensive Atmel AVR Attiny13A chip. T
 
 ### Instructions
 1. Assemble the components into a circuit based on the following diagram:
-*TODO: Insert diagram*
+![UC and LED circuit](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-02/images/uc01-breadboard.png)
 2. Once all is connected, insert the battery into the battery holder. Make sure the flat side with writing is up.
 3. All going well, the preprogrammed microcontroller should alternately flash both LEDs.
 
