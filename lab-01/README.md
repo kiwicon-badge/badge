@@ -28,8 +28,8 @@ In the first lab, we will use a battery (changing chemical energy to potential e
 
 ### Instructions
 
-1. Assemble the components into a circuit based on the following diagram.
-*TODO: Insert diagram...*
+1. Using your breadboard as the base, create the following circuit.
+![Basic Circuit](/images/led-breadboard.png)
 2. Put the multimeter into `Voltage - DC` mode and measure the voltage across various components (touch each leg).
 3. Add the second resistor to the circuit in series (i.e. one after the other in a circuit) as per the diagram below. Observe the changes in the LED brightness and use the multimeter to measure the differing voltage drops.
 *TODO: Insert diagram...*
