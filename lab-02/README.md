@@ -32,7 +32,7 @@ IO ports are what is called tri-state. They can be set to in (current sink / 0),
 1. Assemble the components into a circuit based on the following diagram (note: UC dot to the left):
 ![UC and LED circuit](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-02/images/uc01-breadboard.png)
 2. Once all is connected, insert the battery into the battery holder. Make sure the flat side with writing is up.
-3. All going well, the preprogrammed microcontroller should alternately flash both LEDs (as long as I have had time to upload [the code](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-02/files/attiny13a_blink.ino), if not, we will get to that in a minute.
+3. All going well, the preprogrammed microcontroller should alternately flash both LEDs (as long as I have had time to upload [the code](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-02/files/attiny13a_blink.ino), if not, we will get to that in a minute).
 
 ### Additional References
 
