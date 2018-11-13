@@ -2,7 +2,11 @@
 
 This repo is to host the instructions and code for the Kiwicon 2038 Intro to Badge Hacking course (https://www.kiwicon.org/the-con/training/intro-to-badge-hacking/).
 
-First up, welcome to the course! I hope that today is enjoyable and that you leave having gained skills and knowledge you can put to good use.
+## Welcome!
+
+First up, welcome to the course :D
+
+I hope that today is enjoyable and that you leave having gained skills and knowledge you can put to good use.
 
 Learning the basics of electronics is a great skill. You may use this in the future to deconstructe IOT devices, build your own tools, or simply to fix a broken gadget. When combined with basic programming skills, this can take on a whole new level, where your imagination and, usually more importantly, budget are the only limits!
 
