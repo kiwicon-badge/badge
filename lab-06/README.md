@@ -19,6 +19,7 @@ In this case, the badge uses only 5 pins to control 20 LEDs individually.
 This means that to turn on a specific LED, you have to follow the below table:
 
 | LED (ROW/COLUMN) | HIGH PIN | LOW PIN&nbsp; |
+| ------|--:|--:|
 | R1/C1 | 4 | 0 |
 | R1/C2 | 3 | 0 |
 | R1/C3 | 2 | 0 |
