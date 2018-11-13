@@ -35,11 +35,11 @@ Happy hacking!
 
 ## Course Labs
 
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-01
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-02
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-03
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-04
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-05
-+ https://github.com/kiwicon-badge/badge/tree/master/lab-06
++ Electrical Circuits - https://github.com/kiwicon-badge/badge/tree/master/lab-01
++ Microcontrollers - https://github.com/kiwicon-badge/badge/tree/master/lab-02
++ Loading a Program - https://github.com/kiwicon-badge/badge/tree/master/lab-03
++ Soldering - https://github.com/kiwicon-badge/badge/tree/master/lab-04
++ Badge Assembly - https://github.com/kiwicon-badge/badge/tree/master/lab-05
++ Badge Programming / Hacking - https://github.com/kiwicon-badge/badge/tree/master/lab-06
 
 After that, if anyone is interested, we can run through PCB design using Eagle (and maybe Fritzing).
