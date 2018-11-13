@@ -36,7 +36,7 @@ IO ports are what is called tri-state. They can be set to in (current sink / 0),
 
 ### Additional References
 
-+ https://learn.sparkfun.com/tutorials/logic-levels/33-v-cmos-logic-levels
++ https://learn.sparkfun.com/tutorials/logic-levels/all
 + https://en.wikipedia.org/wiki/ATtiny_microcontroller_comparison_chart
 + https://www.microchip.com/wwwproducts/en/ATtiny13A
 
