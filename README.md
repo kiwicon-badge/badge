@@ -12,13 +12,15 @@ There is no fixed timeline to today. I have broken everything down into labs whi
 
 Happy hacking!
 
-## Safety
+## Safety / Conduct
 
 + In the event of a fire, leave all your gear and follow the exit signs out of the building.
 + In the event of an earthquake, go under your table. When the shaking stops, egress the building following the exit signs, and move to clear ground (up near parliament).
 + We will be working with toxic elements, i.e. lead (PB), in the solder. Do not ingest the solder and make sure you wash your hands before eating anything.
 + The solder flux may be irritating to some. If you have an issue, move to one of the tables / stations nearer the windows.
 + Soldering irons are hot! Always beware where you are putting it and make sure the cord is in a safe location where noone can trip over it.
++ If you see any hazards, let me know and we will work to minimise or remedy these.
++ We follow the [Kiwicon Code of Conduct](https://www.kiwicon.org/faq/#q9). Don't be a shitweasel!
 
 ## Breaks / Facilities
 
