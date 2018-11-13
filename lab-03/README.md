@@ -33,7 +33,7 @@ https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
 8. Download the ["Blinky lights"](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-03/files/attiny13a_blink.ino) sketch.
 9. Upload this to the badge (Sketch -> Upload). While uploading the sketch, you should see some LEDs flashing. If the Arduino IDE doesn't throw any error you can go ahead, else ask for help.
 10. The breadboard should now be drawing power via the USBAsp, so the microcontroller should be powered up and start the sketch.
-11. Use the Arduino IDE to change the timeouts (i.e. the "500" millisecond wait) and reupload your code to see the changes take effect.
+11. Use the Arduino IDE to change the timeouts (i.e. the "delay(500)" wait instruction) and reupload your code to see the changes take effect.
 12. Disconnect the jumpers to the USBAsp and plug in the battery.
 
 ### Additional Resources
