@@ -16,7 +16,7 @@ The badge uses the relatively simple and inexpensive Atmel AVR Attiny13A chip. T
 
 ![ATtiny13A pinouts](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-02/images/attiny_pinout.jpeg)
 
-IO ports are what is called tri-state. They can be set to in (current sink / 0), out (current source / 1), or high impedance (no in or out, effectively removed from the circuit).
+IO ports are what is called tri-state. They can be set to in (current sink / 0), out (current source / 1), or high impedance (no in or out, effectively removed from the circuit). In the pinout diagram above, the IO pins themselves are given various names, depending on the functions they can be used for. All you need to know for today are the green names (PB0-5, VCC, and GND). When dealing with microcontrollers, VCC is another name for positive, i.e. connect the positive side of the battery to this pin.
 
 ### Components
 | Item &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; Count |
