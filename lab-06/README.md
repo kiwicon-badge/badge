@@ -2,7 +2,8 @@
 
 Similar to the earlier lab, you will now program the badge!
 
-The pinout for the badge is as follows:
+Use the following pinout when connecting the USBAsp to the badge:
+
 ![USBAsp pinouts](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-06/images/badge_pinout.png)
 
 Once final complication is that the badge uses a feature that is called "charlieplexing". As a microcontroller can have three states - input, output, and high impedance - designers can leverage this and the property of LEDs - that current can only flow forward through the component - to make up for the fact that they only have a limited number of pins. 
