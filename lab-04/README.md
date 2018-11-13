@@ -28,11 +28,10 @@ Soldering is a key skill when working with electronics. However, the only way to
 ### Instructions
 1. Plug in your soldering iron, set it to 325 degrees, and place it on the cradle to warm up. Make sure you are always aware of you iron and its cable!
 2. Prep your first item to solder. Insert each leg of a resistor through a hole on the perfboard, then bend the wires away from the component, which will hold it in place, like the image below:
-[Bending legs](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-04/images/first_component.png)
+![Bending legs](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-04/images/first_component.png)
 3. Place the perfboard on the table or stick it in some bluetac to hold it in place.
 4. Test your soldering irons temperature by gently touching the end of the solder to the iron, about 1-2mm back from the tip. This is the hottest part of the iron, not the tip. If the solder melts, you're good to go. This is called "tinning" the iron. Wipe off the excess solder using the brass sponge.
-5. Gently press the side of your soldering iron, about 1-2mm back from the tip, against the leg of the resistor, also touching the metal pad of the perfboard hole. Let both heat up for a couple of seconds, then gently touch the end of the solder to the soldering iron near where it touches the component. Refer to this video for an example:
-[Soldering](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-04/images/soldering.mov)
+5. Gently press the side of your soldering iron, about 1-2mm back from the tip, against the leg of the resistor, also touching the metal pad of the perfboard hole. Let both heat up for a couple of seconds, then gently touch the end of the solder to the soldering iron near where it touches the component. Refer to [this video](https://raw.githubusercontent.com/kiwicon-badge/badge/master/lab-04/images/soldering.mov) for an example.
 6. The solder wire should melt and wick into the gap between the resistor and the perfboard. When it does, pull away the solderfirst, then the iron.
 7. Et voila! You've made your first solder joint.
 
