@@ -61,3 +61,4 @@ From here on is hacking time! Come up with some new ideas and see what you can c
 
 ### Additional Resources
 + https://en.wikipedia.org/wiki/Charlieplexing
++ lucstechblog Charlieplexing series - http://lucstechblog.blogspot.com/2017/09/charlieplexing.html
