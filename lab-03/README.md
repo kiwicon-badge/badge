@@ -21,7 +21,7 @@ Make sure you use the above pinouts!
 ### Instructions
 
 0. Make sure you have your breadboard setup as per [Lab-02](https://github.com/kiwicon-badge/badge/blob/master/lab-02/README.md). Remove the battery and set it aside.
-1. Make sure your Arduino IDE is installed.
+1. Make sure your Arduino IDE is installed. If you are on windows, install the drivers for the USBAsp ([download here](https://protostack.com.au/2015/01/usbasp-windows-driver-version-3-0-7/)).
 2. Open the IDE settings (File->Settings) and paste the URL below in “Additional URLs for the board manager”, then click “OK”:
 https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
 3. Open the Boards manager (Tools->Board->Boards manager), search for and install the “MicroCore” package. This will enable programming the ATtiny13a microcontroller.
@@ -38,3 +38,4 @@ https://mcudude.github.io/MicroCore/package_MCUdude_MicroCore_index.json
 
 ### Additional Resources
 + https://quadmeup.com/programming-attiny85-and-attiny45-with-arduino-ide/
++ USBAsp drivers for Windows (should work on Win10) - https://protostack.com.au/2015/01/usbasp-windows-driver-version-3-0-7/
